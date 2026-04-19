@@ -9,6 +9,7 @@ def div(a,b):
         return a/b
     return "erreure"
 while True:
+    print("--- Nouvelle Operation ---")
     a = float(input("Enter a number: "))
     op = input("enter an operator(+,-,*,/):")
     b = float(input("Enter another number: "))
@@ -21,5 +22,5 @@ while True:
     elif op=="/":
         print(div(a,b))
     else:
-        print("error")
+        print("l'opperateure n'existe pas!")
 
